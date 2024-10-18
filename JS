@@ -1,4 +1,4 @@
-Functions in JS : To Be Or Not To Be
+1. Functions in JS : To Be Or Not To Be
 
 var expect = function(val) {
 
@@ -17,5 +17,26 @@ var expect = function(val) {
         },
     };
 
+};
+
+
+2. Function: Counter II
+
+var createCounter = function(init) {
+    let value = init;
+    return {
+        increment: function(){
+        return value +=1;
+        },
+        reset: function(){
+            return value= init;
+        },
+
+        decrement: function(){
+            return value -=1;
+        },
+        
+    }
+    
 };
 
